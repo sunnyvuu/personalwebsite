@@ -13,6 +13,12 @@
     text-transform: uppercase;
   }
 
+  & .logo a,
+  .links a,
+  .resume a {
+    color: #872c2c;
+  }
+
   & .logo a:link,
   .links a:link,
   .resume a:link {
@@ -22,7 +28,17 @@
   & .logo a:hover,
   .links a:hover,
   .resume a:hover {
-    text-decoration: underline;
+    color: white;
+  }
+
+  & .logo a:active,
+  .links a:active,
+  .resume a:active {
+    color: white;
+  }
+
+  & .links a:hover {
+    text-shadow: 0 0 0.1em white;
   }
 }
 
@@ -35,8 +51,8 @@
 .navlinks li {
   float: left;
   margin: 1rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .resume {
