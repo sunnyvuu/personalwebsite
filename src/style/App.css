@@ -1,0 +1,55 @@
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  align-items: center;
+
+  & .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #872c2c;
+  }
+
+  & .name {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+
+  & .intro-para {
+    width: 75%;
+    font-weight: 500;
+
+    & p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.intro-image {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro-image img {
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 150%;
+  position: absolute;
+  top: -165px;
+  left: -150px;
+}
