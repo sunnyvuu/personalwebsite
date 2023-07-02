@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #da9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 100px;
+
+  & .logo {
+    width: 10%;
+    margin: 1em;
+    text-transform: uppercase;
+  }
+
+  & .logo a:link,
+  .links a:link,
+  .resume a:link {
+    text-decoration: none;
+  }
+
+  & .logo a:hover,
+  .links a:hover,
+  .resume a:hover {
+    text-decoration: underline;
+  }
+}
+
+.navlinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navlinks li {
+  float: left;
+  margin: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.resume {
+  width: 10%;
+  text-align: right;
+  margin: 1rem;
+  font-style: italic;
+}
