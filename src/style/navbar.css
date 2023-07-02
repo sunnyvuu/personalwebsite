@@ -4,13 +4,14 @@
   align-items: center;
   justify-content: space-between;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 100px;
 
   & .logo {
     width: 10%;
     margin: 1em;
     text-transform: uppercase;
+    margin-left: 2rem;
   }
 
   & .logo a,
@@ -60,4 +61,5 @@
   text-align: right;
   margin: 1rem;
   font-style: italic;
+  margin-right: 2rem;
 }
