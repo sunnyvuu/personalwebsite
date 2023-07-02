@@ -9,15 +9,25 @@ function App() {
       </div>
       <div className="intro-container">
         <div className="intro-text">
-          <div className="title"> Software Engineer</div>
-          <div className="name">Hello, I'm Madi</div>
+          <div className="name">
+            Hello, I'm <span> Madi </span> | Software Engineer
+          </div>
           <div className="intro-para">
             <p>
               {" "}
-              Lorem ipsum dolor sit amet consectetur. Netus blandit viverra
-              praesent in. Varius eget nibh a massa mauris consequat
-              sollicitudin. Ultrices diam tempus lacus mauris consequat. Sed id
-              nunc vestibulum quam aliquet posuere enim tempus eu.{" "}
+              I'm a junior at Louisiana State University majoring in computer
+              science with a passion for full-stack development, with a focus on
+              front-end and mobile technologies. In addition to being an
+              aspiring developer, I'm also a UI/UX design intern at Vigilus. In
+              my free time, I'm hanging out with my feline bestie,{" "}
+              <a
+                href="https://sunnyvuu.github.io/MoonyTheCat/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Moony
+              </a>
+              .
             </p>
             <div className="social-btns">make social btn components lol</div>
           </div>

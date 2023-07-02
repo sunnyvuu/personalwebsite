@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 8%;
   align-items: center;
 
   & .title {
@@ -12,9 +12,21 @@
   }
 
   & .name {
-    color: white;
+    color: #bb6b6b;
     font-size: 3rem;
     font-weight: 600;
+    line-height: 1em;
+
+    & span {
+      color: #872c2c;
+    }
+  }
+
+  & a {
+    color: #872c2c;
+  }
+  & a:link {
+    text-decoration: none;
   }
 }
 
