@@ -39,7 +39,10 @@
 ![Personal Website ScreenShot](https://i.gyazo.com/797745804d582b800e085d3e0dcbc42e.png)
 
 ### Built With 
-[![React][React.js]][React-url]
+* Vite
+* React
+* TypeScript
+* HTML + CSS
 
 <!-- GETTING STARTED -->
 ## Getting Started
