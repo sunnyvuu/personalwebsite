@@ -1,6 +1,6 @@
 import "../src/style/App.css";
 import NavBar from "./components/NavBar";
-import "../src/assets/MYi_Headshot.jpg";
+
 function App() {
   return (
     <>
@@ -33,7 +33,11 @@ function App() {
           </div>
         </div>
         <div className="intro-image">
-          <img src={"./src/assets/MYi_Headshot.jpg"} />
+          <img
+            src={
+              "https://professional-images.s3.us-east-2.amazonaws.com/MYi_Headshot.jpg"
+            }
+          />
         </div>
       </div>
     </>
