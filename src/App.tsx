@@ -1,5 +1,8 @@
 import "../src/style/App.css";
 import NavBar from "./components/NavBar";
+import SocialMediaBtn from "./components/SocialMediaBtn";
+import LinkedInLogo from "../src/assets/linkedin.png";
+import GitHubLogo from "../src/assets/github.png";
 
 function App() {
   return (
@@ -29,7 +32,18 @@ function App() {
               </a>
               .
             </p>
-            <div className="social-btns">make social btn components lol</div>
+            <div className="social-btns">
+              <SocialMediaBtn
+                logo={LinkedInLogo}
+                link={"https://www.linkedin.com/in/madi-yi/"}
+                altText={"LinkedIn Logo"}
+              />
+              <SocialMediaBtn
+                logo={GitHubLogo}
+                link={"https://github.com/sunnyvuu"}
+                altText={"GitHub Logo"}
+              />
+            </div>
           </div>
         </div>
         <div className="intro-image">
