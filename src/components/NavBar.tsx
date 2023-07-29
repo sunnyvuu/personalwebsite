@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div className="navbar">
-      <div className="logo">
+      <div className="siteLogo">
         <Link to="/"> Madi Yi </Link>
       </div>
       <div className="navlinks">
