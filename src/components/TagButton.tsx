@@ -1,7 +1,11 @@
-import React from "react";
 import "../style/TagButton.css";
 
-const TagButton = ({ label, link }) => {
+type TagButtonProps = {
+  label: string;
+  link: string;
+};
+
+const TagButton = ({ label, link }: TagButtonProps) => {
   return (
     <a
       href={link}

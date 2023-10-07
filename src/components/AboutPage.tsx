@@ -1,5 +1,4 @@
 import NavBar from "./NavBar";
-import WorkInProgress from "./WorkInProgress";
 
 import "../style/AboutMe.css";
 import Timeline from "./Timeline";
