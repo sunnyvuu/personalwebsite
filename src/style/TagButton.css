@@ -1,0 +1,18 @@
+.tag-button {
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tag-button:hover {
+  background-color: #d37474;
+  color: #f9f9f9;
+}
