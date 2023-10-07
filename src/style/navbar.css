@@ -1,11 +1,10 @@
 .navbar {
-  background-color: #da9999;
+  background-color: #fde6e6;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-weight: bold;
   font-size: 1.2rem;
-  border-radius: 100px;
 
   & .siteLogo {
     width: 10%;
@@ -29,7 +28,7 @@
   & .siteLogo a:hover,
   .links a:hover,
   .resume a:hover {
-    color: white;
+    color: #c04646;
   }
 
   & .siteLogo a:active,
@@ -39,7 +38,8 @@
   }
 
   & .links a:hover {
-    text-shadow: 0 0 0.2em white;
+    text-shadow: 0 1 1em white;
+    text-decoration: underline;
   }
 }
 
@@ -52,8 +52,8 @@
 .navlinks li {
   float: left;
   margin: 1rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .resume {
