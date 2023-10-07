@@ -1,6 +1,8 @@
 .timeline {
   position: relative;
   max-width: 60rem;
+  height: 60rem; /* Adjust this value based on your preference */
+  overflow-y: auto; /* Enables vertical scrolling */
   margin: 50px auto;
 }
 
@@ -50,4 +52,7 @@
   margin-left: 50%;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+.timeline::-webkit-scrollbar {
+  display: none;
 }
