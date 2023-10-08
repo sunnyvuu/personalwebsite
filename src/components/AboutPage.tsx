@@ -6,14 +6,12 @@ import TagButton from "./TagButton";
 import getNowPlayingItem from "../api/spotify";
 import { SpotifyNowPlaying } from "../spotify/SpotifyNowPlaying";
 import "../style/NowPlaying.css";
-function onClickMusic() {
-  console.log(getNowPlayingItem());
-}
+
 function AboutPage() {
   return (
     <div>
       <NavBar />
-      <button onClick={onClickMusic}> Click me </button>
+
       <div className="about-me-container">
         <h3 className="abt-me"> About Me </h3>
         <p>
