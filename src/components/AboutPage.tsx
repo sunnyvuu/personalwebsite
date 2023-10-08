@@ -3,7 +3,6 @@ import NavBar from "./NavBar";
 import "../style/AboutMe.css";
 import Timeline from "./Timeline";
 import TagButton from "./TagButton";
-import getNowPlayingItem from "../api/spotify";
 import { SpotifyNowPlaying } from "../spotify/SpotifyNowPlaying";
 import "../style/NowPlaying.css";
 
