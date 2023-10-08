@@ -3,12 +3,17 @@ import NavBar from "./NavBar";
 import "../style/AboutMe.css";
 import Timeline from "./Timeline";
 import TagButton from "./TagButton";
-
+import getNowPlayingItem from "../api/spotify";
+import { SpotifyNowPlaying } from "../spotify/SpotifyNowPlaying";
+import "../style/NowPlaying.css";
+function onClickMusic() {
+  console.log(getNowPlayingItem());
+}
 function AboutPage() {
   return (
     <div>
       <NavBar />
-
+      <button onClick={onClickMusic}> Click me </button>
       <div className="about-me-container">
         <h3 className="abt-me"> About Me </h3>
         <p>
@@ -45,7 +50,10 @@ function AboutPage() {
           label="Listening to Music"
           link="https://open.spotify.com/user/12134492202"
         />
-        <h3> My Journey </h3>
+        <div className="spotify-now-playing">
+          <SpotifyNowPlaying />
+        </div>
+        <h3> My Journey (In Progress) </h3>
         <Timeline />
       </div>
     </div>
